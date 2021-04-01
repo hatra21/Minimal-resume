@@ -75,13 +75,10 @@ h1 {
 .section {
     font-weight: 500;
     color:white;
-    margin: 2rem;
+    /* margin: 2rem; */
     display: grid;
     grid-template-columns: 35% 65%;
-    padding: 2rem 0;
-
-
-
+    padding: 4rem 2rem;
 }
 
 
@@ -90,6 +87,20 @@ h1 {
     display: flex;
     justify-content: flex-end;
     padding-right: 2rem;
+}
+
+.about-section {
+    background-color: #4299FF;
+}
+
+.work-section {
+    background-color: #3288ED;
+}
+
+.contact-section {
+    background-color: #277DE3;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
 }
 
 
